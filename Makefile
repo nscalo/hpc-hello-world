@@ -4,7 +4,7 @@ default: app-icc app-gcc
 
 app-icc : ${TARGET}
 	# Insert Intel compiler compilation here
-	icl -o "$@" "$<"
+	icpc -o "$@" "$<"
 
 app-gcc : ${TARGET}
 	g++ -o "$@" "$<"
