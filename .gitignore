@@ -1,2 +1,5 @@
 *.exe
 *.obj
+*.zip
+*.tar
+*.tar.gz
